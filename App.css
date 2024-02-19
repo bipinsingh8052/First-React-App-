@@ -1,0 +1,44 @@
+#card{
+  min-height: 300px;
+  max-height: 400px;
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 5px 5px 5px lightcoral;
+
+
+}
+#card_img{
+  height: 200px;
+  width: 90%;
+  padding-top: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+  display: inline;
+}
+#cart_price{
+  width: 90%;
+}
+#cart_price>h7>strike{
+  margin-left: 10px;
+  font-size: 13px;
+}
+#cart_price>p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#cart_button{
+  height: 30px;
+  width: 90%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(135deg,rgb(235, 65, 8),rgb(169, 25, 25));
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 3px;
+
+}
